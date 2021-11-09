@@ -1,0 +1,120 @@
+#container{
+  width:100%;
+  margin:auto;
+  height: auto;
+}
+.logo{
+  width:50%;
+  height: 150px;
+  float:initial;
+  
+  
+
+}
+#box {
+  max-width:100%;
+  position: relative;
+  background-color: rgb(189, 184, 184);
+}
+
+#box .fa-search {
+  position: absolute;
+  top: 24px;
+  left: 22px;
+  font-size: 20px;
+  float:left;
+  color:cornflowerblue;
+  
+}
+
+#search {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size:18px;
+  text-align: center;
+  padding: 12px 20px 12px 40px;
+  color: black;
+  
+  
+}
+
+
+#search:focus {
+  width: 100%;
+}
+
+
+.kutu{
+  width: 539px;
+  height:104px;
+  background-color:#00e1ff;
+  float: left;
+  display: inline-table;
+  margin: 0px;
+  text-align: center;
+  
+}
+.kutu1{
+  width: 300px;
+  height:80px;
+  background-color:#006eff;
+  text-align: center;
+  display: inline-table;
+  margin:0px;
+  
+}
+
+.kutu2{
+  width: 507px;
+  height:105px;
+  background-color:#00ffea;
+  text-align: right;
+  display: inline-table;
+  margin: 0px;
+  
+}
+form.example input[type=text] {
+  
+  font-size: 17px;
+  border: 1px solid grey;
+  float:left;
+  width: 50%;
+  background: #f1f1f1;
+  margin: 10px;
+  justify-content:center;
+}
+
+
+form.example button {
+  float:left;
+  width: 15%;
+  background: #f5f7f8;
+  color:black;
+  font-size: 13px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+  text-align: center;
+  
+  justify-content:center;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer{
+  height: 50px;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  margin: 30px;
+}
